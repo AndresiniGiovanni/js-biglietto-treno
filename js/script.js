@@ -5,7 +5,7 @@
 // va applicato uno sconto del 40% per gli over 65.
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 
-let percorso = parseInt(prompt("quanti km vuoi percorrere ?"));
+let percorso = parseInt(prompt("quanti km devi percorrere ?"));
 let eta = parseInt(prompt("qual'é l'etá del passeggero?"));
 
 console.log(percorso);
