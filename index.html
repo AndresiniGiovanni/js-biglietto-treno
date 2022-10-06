@@ -21,9 +21,34 @@
     ></script>
 
     <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
+    <header>
+      <h1 class="text-uppercase text-white text-center pt-4">
+        Biglietto Viaggio
+      </h1>
+    </header>
+    <main>
+      <section class="d-flex pt-5">
+        <div class="my-container">
+          <div class="position-relative prezzo-biglietto">
+            <span class="text-white big-font"
+              >il costo del tuo biglietto é di:</span
+            >
+            <span id="calcolo" class="text-white costo"></span>
+            <span class="text-white big-font">&euro;</span>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="./js/script.js"></script>
   </body>
 </html>

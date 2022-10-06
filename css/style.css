@@ -1,0 +1,31 @@
+:root {
+  --bluegrey: #181f29;
+}
+
+body {
+  font-family: "Fredoka", sans-serif;
+  background-color: var(--bluegrey);
+}
+.big-font {
+  font-size: 30px;
+}
+
+.my-container {
+  width: 50%;
+  height: 150px;
+  position: relative;
+  left: 25%;
+}
+
+.costo:hover {
+  transition: 0.4s;
+  font-size: 40px;
+}
+
+.prezzo-biglietto {
+  top: 30%;
+  left: 25%;
+}
+.costo {
+  font-size: 35px;
+}

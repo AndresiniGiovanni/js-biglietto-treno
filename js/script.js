@@ -16,11 +16,18 @@ console.log(costoKm);
 
 if (eta < 18) {
   let percentuale = parseFloat(costoKm * 0.8).toFixed(2);
+
   console.log(percentuale);
 } else if (eta > 65) {
   let percentuale = parseFloat(costoKm * 0.6).toFixed(2);
+
   console.log(percentuale);
 } else {
   let percentuale = costoKm;
+
   console.log(percentuale);
 }
+let elemento = document.getElementById("calcolo");
+elemento.innerHTML = calcolo;
+
+document.getElementById("calcolo").innerHTML = costoKm;
