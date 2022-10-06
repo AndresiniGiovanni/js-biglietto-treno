@@ -14,20 +14,19 @@ console.log(eta);
 let costoKm = parseFloat(percorso * 0.21).toFixed(2);
 console.log(costoKm);
 
+let percentuale;
 if (eta < 18) {
-  let percentuale = parseFloat(costoKm * 0.8).toFixed(2);
+  percentuale = parseFloat(costoKm * 0.8).toFixed(2);
 
   console.log(percentuale);
 } else if (eta > 65) {
-  let percentuale = parseFloat(costoKm * 0.6).toFixed(2);
+  percentuale = parseFloat(costoKm * 0.6).toFixed(2);
 
   console.log(percentuale);
 } else {
-  let percentuale = costoKm;
+  percentuale = costoKm;
 
   console.log(percentuale);
 }
-let elemento = document.getElementById("calcolo");
-elemento.innerHTML = calcolo;
 
-document.getElementById("calcolo").innerHTML = costoKm;
+document.getElementById("calcolo").innerHTML = percentuale;
